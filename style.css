@@ -1,0 +1,58 @@
+.main_body {
+  width: 95%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "Bangers", cursive;
+}
+input[type="radio"] {
+  margin-right: 50px;
+}
+label {
+  display: inline-block;
+  background-color: #454545;
+  width: 50px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "Bangers", cursive;
+}
+label[for="red"] {
+  color: lightcoral;
+}
+label[for="blue"] {
+  color: lightblue;
+}
+label[for="green"] {
+  color: lightgreen;
+}
+
+/* Color_grid */
+.Color_grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 5px;
+  background-color: #454545;
+  padding: 10px;
+  margin: 20px auto;
+
+  width: max-content;
+
+  border-radius: 10px;
+}
+
+.Color_grid_item {
+  background-color: antiquewhite;
+  font-size: 20px;
+  font-family: "Bangers", cursive;
+}
