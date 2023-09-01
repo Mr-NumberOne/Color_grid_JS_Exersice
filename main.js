@@ -7,3 +7,8 @@ function change_color(currentsquare) {
 function change_picked_color(color) {
   ColorPicked = color;
 }
+
+function Reset() {
+  var ColorDivs = document.getElementsByClassName("Color_grid_item");
+  ColorDivs.style.backgroundColor = "antiquewhite";
+}
